@@ -1,0 +1,16 @@
+main{
+  background-color: #ffffff;
+    min-height: 100vh;
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.header h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.header p{
+    font-size:20px;
+}
