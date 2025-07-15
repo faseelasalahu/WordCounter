@@ -1,11 +1,18 @@
-import React from 'react'
+import { Link } from "react-router-dom"
+import PageNotFoundImage  from "../assets/PageNotFoundImage.png";
 
-function PageNotFound() {
+export const PageNotFound = () => {
   return (
-    <div>
-      <h1>Pagenotfound</h1>
-    </div>
+    <main>
+      <section className="pnf">
+        <div className="oops">
+          <p data-testid="pnfText">Oops - Page Not Found!</p>
+          <img src={PageNotFoundImage } alt="" />
+          <Link to="/">
+            <button data-testid="homeBtn">Go Back To Word Counter</button>
+          </Link>
+        </div>
+      </section>
+    </main>
   )
 }
-
-export default PageNotFound

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const Joke = () => {
+export const Jokes = () => {
     const [joke, setJoke] = useState("");
 
     useEffect(() => {

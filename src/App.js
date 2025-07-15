@@ -1,7 +1,7 @@
 import { Route,Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import JokesPage from './pages/JokesPage';
-import PageNotFound from './pages/PageNotFound'
+import {JokesPage} from './pages/JokesPage';
+import {PageNotFound} from './pages/PageNotFound'
 import './App.css';
 
 function App() {

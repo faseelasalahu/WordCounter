@@ -1,11 +1,11 @@
-import React from 'react'
+import  Header  from "../components/Header";
+import  {Jokes}  from "../components/Jokes";
 
-function JokesPage() {
+export const JokesPage = () => {
   return (
-    <div>
-      <h1>Jokespage</h1>
-    </div>
+    <main>
+      <Header heading="ChuckNorris Jokes" subHeading="Free JSON API for hand curated Chuck Norris facts." />
+      <Jokes />
+    </main>
   )
 }
-
-export default JokesPage
